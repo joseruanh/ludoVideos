@@ -4,8 +4,6 @@
 	{
 		display: flex;
 		justify-content: top;
-		flex-direction: column-reverse;
-		padding: 0;
 		margin: 0;
 	}
 
