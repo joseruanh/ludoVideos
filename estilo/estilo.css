@@ -1,0 +1,173 @@
+@font-face
+{
+    font-family: gotham;
+    src: url('../fonts/gotham.ttf') format('truetype');
+}
+
+*{margin: 0; padding: 0; color: white; font-family: gotham;}
+
+::-webkit-scrollbar{width: 10px;}
+::-webkit-scrollbar-track{background: transparent;}
+::-webkit-scrollbar-thumb{background: var(--cor3); border-radius: 10px;}
+::-webkit-scrollbar-corner{background: transparent;}
+
+:root
+{
+    --cor1: rgb(31, 31, 81);
+    --cor2: rgb(48, 48, 118);
+    --cor3: rgb(14, 14, 36);
+    --cor4: rgba(0, 0, 0, 0.502);
+}
+
+body
+{
+    background-color: var(--cor1);
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: var(--cor2);
+    border-bottom: 1px solid var(--cor3);
+}
+
+button#atualiza
+{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img#yt
+{
+    width: 30px;
+    margin-right: 3px;
+}
+
+div.cabeca
+{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img#logo
+{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+p#titulo
+{
+    padding: 10px;
+    margin-left: 5px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+button#rel
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: 0.1s;
+}
+
+button#rel:hover
+{
+    background-color: var(--cor1);
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 90vh;
+}
+
+div.conteudo
+{
+    max-width: 100%;
+    height: 90vh;
+    overflow: scroll;
+}
+
+
+
+div.videos
+{
+    max-width: 20%;
+    text-align: center;
+}
+div.video
+{
+    width: 80%;
+    text-align: center;
+}
+
+div.videoLudo
+{
+    max-width: 100%
+}
+
+button.botaoVideos
+{
+    padding: 20px;
+    border: none;
+    background-color: rgba(14, 14, 36, 0.653);
+    cursor: pointer;
+    transition: 0.3s;
+    max-width: 100%;
+}
+
+div.blocos
+{
+    max-width:90%;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+div.blocos:hover
+{
+    transform: scale(1.1);
+}
+
+iframe
+{
+    width: 85%;
+    height: 393px;
+    border-radius: 10px;
+}
+
+img.ludoIMG
+{
+    width: 150px;
+    border-radius: 100%;
+}
+
+button.botaoVideos > p
+{
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 5px;
+}
