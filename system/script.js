@@ -3,6 +3,15 @@ function atualiza()
     location.reload()
 }
 
+function video0()
+{
+    let a = window.document.getElementById("video")
+    a.innerHTML = `
+    <iframe src="https://www.youtube.com/embed/TZXXsqcQJv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    `
+}
+
 function video1()
 {
     let a = window.document.getElementById("video")

@@ -5,6 +5,13 @@ div#sobresentimentos
     background-size: 100%;
 }
 
+div#irresistivel
+{
+    background-image: url('../thumbs/img0.jpg');
+    background-position: center center;
+    background-size: 100%;
+}
+
 div#porqueamamos
 {
     background-image: url('../thumbs/img2.png');
